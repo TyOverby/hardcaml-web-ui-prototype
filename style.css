@@ -99,14 +99,16 @@ input {
     max-width: 5em;
 }
 
+select {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
 p {
     margin:0;
 }
 
 .pack {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    column-gap: 0.5em;
-    justify-content: center;
+    flex-direction: column;
 }
